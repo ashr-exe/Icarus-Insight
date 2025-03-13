@@ -1,4 +1,26 @@
+# Core Dependencies
+streamlit
+python-dotenv
 aiohttp
+
+# LangChain and AI Models
 langchain
-langchain_groq
-langchain_community
+langchain-community
+langchain-groq
+
+# Vector Database & Embeddings
+chromadb
+sentence-transformers
+
+# Visualization
+matplotlib
+seaborn
+
+# Async Operations
+nest-asyncio
+
+# Other Utilities
+numpy
+pandas
+requests
+
