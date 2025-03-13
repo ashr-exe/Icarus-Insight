@@ -26,7 +26,7 @@ except RuntimeError:
 try:
     from langchain_groq import ChatGroq
     llm = ChatGroq(
-        groq_api_key = st.secrets["GROQ_API_KEY"]
+        groq_api_key = st.secrets["GROQ_API_KEY"],
         model_name="llama-3-70b-8192"
     )
 except Exception as e:
