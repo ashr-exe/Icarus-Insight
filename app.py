@@ -1,6 +1,5 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
 import asyncio
 
 # Import our custom modules
@@ -11,8 +10,6 @@ from visualization_engine import AerospaceVisualizationEngine
 from api_clients import initialize_api_clients
 from utils import generate_research_summary, extract_key_innovations
 
-# Load environment variables
-load_dotenv()
 
     
 # Safer way to handle asyncio in Streamlit
