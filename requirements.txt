@@ -24,3 +24,5 @@ numpy
 pandas
 requests
 
+pysqlite3-binary
+
