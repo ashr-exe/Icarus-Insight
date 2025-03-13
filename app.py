@@ -10,6 +10,16 @@ from visualization_engine import AerospaceVisualizationEngine
 from api_clients import initialize_api_clients
 from utils import generate_research_summary, extract_key_innovations
 
+import sys
+
+# Force Python to use pysqlite3 instead of system sqlite3
+try:
+    import pysqlite3
+    sys.modules["sqlite3"] = pysqlite3
+except ImportError:
+    pass  # If pysqlite3 is not available, fallback to default sqlite3
+
+import sqlite3  # Now it should load pysqlite3 instead
 
     
 # Safer way to handle asyncio in Streamlit
