@@ -1,3 +1,4 @@
 aiohttp
 langchain
 langchain_groq
+langchain_community
