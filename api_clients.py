@@ -4,10 +4,7 @@ import asyncio
 import json
 import urllib.parse
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
 
 class GooglePatentsAPI:
     """Client for Google Patents API (simulated as no true free API exists)"""
